@@ -6,16 +6,18 @@
 Permiten tomar decisiones según una condición.
 */
 
-let edad = 18;
+let edad = 17;
 
-if (edad >= 18) {
+if (edad > 18) {
   console.log("Eres mayor de edad");
+} else if (edad === 18) {
+  console.log("Acabas de cumplir la mayoría de edad");
 } else {
-  console.log("Eres menor de edad");
+  console.log("No eres mayor de edad");
 }
 
 // Switch
-let dia = 1;
+let dia = 3;
 
 switch (dia) {
   case 1:

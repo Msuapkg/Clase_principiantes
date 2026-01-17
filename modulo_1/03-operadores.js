@@ -17,8 +17,14 @@ console.log(suma, resta, multiplicacion, division);
 // Operadores de comparación
 console.log(5 > 3);   // true
 console.log(5 === "5"); // false
+console.log(5 == "5"); // false
+
 
 // Operadores lógicos
+
+// Operador amphersand && - y
+// Operador Or || - ó
+
 let mayorDeEdad = true;
 let tieneEntrada = false;
 

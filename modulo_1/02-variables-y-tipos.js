@@ -17,11 +17,19 @@ let edad = 25;
 const nombre = "Carlos";
 
 // Tipos de datos básicos
-let texto = "Hola";        // string
-let numero = 10;           // number
-let esMayor = true;        // boolean
-let sinValor = null;       // null
-let indefinido;            // undefined
+let texto = "Hola";                                 // string
+let numero = 10;                                    // number
+let esMayor = true;                                 // boolean
+let frutas = ['pera', 'manzana', 'uva', 24, true]   // array / matriz
+let direccion = {
+    calle: 'Av. Chinconcuac',
+    numero_ext: 45,
+    colonia: 'Siempre Viva',
+    privada: true,
+    mascotas: ['Piki', 'Tornado']
+}                                                   // object / objeto
+let sinValor = null;                                // null
+let indefinido;                                     // undefined
 
 console.log(edad, nombre, texto, numero, esMayor);
 

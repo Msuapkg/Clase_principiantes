@@ -1,5 +1,5 @@
 // Estructura de for
-/* for (let i = 0; i < 10; i++) {
+/* for (let i = 0; i < 5; i++) {
     
     console.log('Iteración número ' + i)
 
@@ -13,18 +13,18 @@
 // console.log('Iteración número ' + i): bloque de código que se ejecuta en cada iteración del bucle.
 
 // Ejemplo práctico: calcular el total de gastos semanales
-const gastos = [700, 100, 1000, 150, 50, 75, 40, 23, 25]; // Array de gastos
+const gastos = [700, 100, 1000, 150, 50, 75, 40, 23, 25, 800, 350, 250]; // Array de gastos
 let totalGastos = 0;
 
-//console.log(gastos[5])
+//console.log(gastos[1])
 
-/* for (let i = 0; i < gastos.length; i++) {
+for (let i = 0; i < gastos.length; i++) {
     const gastoDiario = gastos[i];
     totalGastos += gastoDiario
-    console.log(totalGastos)
+    //console.log(totalGastos)
 }
 
-console.log(totalGastos) */
+console.log(totalGastos)
 
 /* for (let i = 0; i < 5; i++) {
     if (i === 3) {
@@ -49,11 +49,11 @@ console.log(totalGastos) */
     continue;
 } */
 
-for (let i = 0; i < gastos.length; i++) {
+/* for (let i = 0; i < gastos.length; i++) {
     const gastoDiario = gastos[i];
     if (gastoDiario <= 500) continue;
     totalGastos += gastoDiario;
     console.log(totalGastos);
-}
+} */
 
 //console.log(totalGastos)

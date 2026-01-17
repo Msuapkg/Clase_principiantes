@@ -1,5 +1,5 @@
 const frutas = ["manzana", "uva", "pera", "guayaba"];
-//                 0         1         2        3
+//                 0         1       2        3
 const presentaciones = ["1 Kg","5 Kg"];
 
 //console.log(frutas[3]);

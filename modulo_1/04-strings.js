@@ -6,7 +6,7 @@
 Los strings representan texto.
 */
 
-let nombre = "Ana";
+let nombre = "Manuel";
 let edad = 30;
 
 // Concatenación clásica
@@ -14,13 +14,14 @@ console.log("Hola, mi nombre es " + nombre);
 
 // Template literals (recomendado)
 console.log(`Hola, mi nombre es ${nombre} y tengo ${edad} años`);
+// ALT + 96 ``
 
 // Métodos útiles
 let frase = "JavaScript es genial";
 
 console.log(frase.length);
 console.log(frase.toUpperCase());
-console.log(frase.includes("genial"));
+console.log(frase.includes("es"));
 
 /*
 --------------------------------------------------
